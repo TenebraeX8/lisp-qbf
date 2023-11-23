@@ -20,7 +20,7 @@
     (loop for line in (read-file path) 
         with mapping := (list (list 0 0))
 
-        when (starts-with line #\c) 
+        when (or (starts-with line #\c) (starts-with line #\p))
         do (format t "~a~%" line)
 
         when (or (starts-with line #\a) (starts-with line #\e))
