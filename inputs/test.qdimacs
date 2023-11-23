@@ -1,0 +1,6 @@
+c Some comment stuff, not interesting
+p cnf 3 3
+e 5 6 0
+a 7 0
+5 6 7 0
+-5 -6 -7 0
